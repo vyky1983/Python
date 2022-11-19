@@ -8,3 +8,8 @@ for i in list:
 r= range(2, 15, 2)
 for i in r:
  print(i)
+
+print()
+
+for i in "salut":
+ print(i)
