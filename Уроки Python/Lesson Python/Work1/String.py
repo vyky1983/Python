@@ -3,7 +3,5 @@ print(len(text))
 print("ещё" in text)
 print(text.isdigit())
 print(text.islower())
-print(text.replace("ещё","ЕЩЕ"))
+print(text.replace("ещё", "ЕЩЕ"))
 
-for i in text:
- print(i)
