@@ -4,12 +4,24 @@
 # -> 1, 4, 8, 7, 5 --> 8
 # -> 78, 55, 36, 90, 2 --> 90
 
-y = [1, 15, -136, 4, 98]
-print(y)
-m = y[0]
+# y = [1, 15, -136, 4, 98]
+# print(y)
+# m = y[0]
 
-for i in y:
-    if i > m:
-        m = i
+# for i in y:
+#     if i > m:
+#         m = i
 
-print(f"--> {m}")
+# print(f"--> {m}")
+
+
+a=[]
+for i in range(5):
+ k=int(input(" Введите число --> "))
+ a.append(k)
+
+max=a[0]
+for i in a:
+ if i>max:
+  max=i
+print(f" Максимальное число --> {max}")  
