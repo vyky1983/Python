@@ -14,9 +14,11 @@ print("Hello world")
 x = int(input(" Введите число х --> "))
 y = int(input(" Введите число y --> "))
 
-if y == x*x or x ==y*y:
+if y == x*x or x == y*y:
     print(" да ")
 # elif x == y*y:
 #     print(" да ")
 else:
     print(" Нет ")
+
+
