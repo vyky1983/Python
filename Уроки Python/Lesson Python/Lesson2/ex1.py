@@ -1,6 +1,8 @@
 color = ("red", "gren", "blue")
 data = open("file.txt", "w")
 data.writelines(color)  # Разделителей не будет
+data.write("\nLINE 312\n")
+data.write("\nLINE 513\n")
 data.close()
 
 exit()
