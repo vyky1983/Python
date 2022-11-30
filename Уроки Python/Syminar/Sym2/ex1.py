@@ -11,6 +11,12 @@
 
 n = int(input('Введите число --> ' ))
 
-for i in range(n):
- result= (-3)**i
- print(result, end=' ')
+# for i in range(n):
+#  result= (-3)**i
+#  print(result, end=' ')
+
+i=0
+while i<n:
+ print((-3)**i, end=(' '))
+ i+=1
+
