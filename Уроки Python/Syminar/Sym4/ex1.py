@@ -22,3 +22,13 @@ string = 'Я люблю Джавуабв абви Питон'
 s1 = 'абв'
 print(' '.join([i for i in string.split() if i.count(s1) == 0]))
 
+print("------------->")
+
+strText = 'Я люблю Джавуабв абви Питон'
+print(' '.join([i for i in strText.split(' ') if 'абв' not in i]))
+
+print("------------->")
+
+my_str = 'Я люблю Джавуабв абви Питон'
+filtered_list = list(filter(lambda word: "абв" not in word, my_str.split(" ")))
+
