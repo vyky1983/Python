@@ -1,4 +1,5 @@
-import isOdd
+from isOdd import isOdd
 
 
-print('Hello world')
+print(isOdd(1))
+print(isOdd(4))
